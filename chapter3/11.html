@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>100%宽度不会死循环</title>
+    <style>
+        .demo {
+            width: 500px;
+            margin: 0 auto;
+            color: white;
+        }
+        .box {
+            background-color: #cd0000;
+            white-space: nowrap;
+        }
+        .text {
+            width: 100%;
+            display: inline-block;
+            background-color: #34538b;
+        }
+    </style>
+</head>
+<body>
+<div class="demo">
+    <div class="box">
+        <img src="https://demo.cssworld.cn/images/common/m/1.jpg" alt="">
+        <span class="text">红色背景是父级，我和父亲的width都是500px</span>
+    </div>
+</div>
+</body>
+</html>
