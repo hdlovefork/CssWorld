@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>流动性丢失</title>
+    <style>
+        .nav {
+            background-color: #cd0000;
+            width: 300px;
+        }
+        .nav-a {
+            display: block;
+            margin: 0 10px;
+            padding: 9px 10px;
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid #b70000;
+            border-top: 1px solid #de3636;
+        }
+        .nav-a:first-child {
+            border-top: 0;
+        }
+        .nav-a+.nav-a+.nav-a {
+            border-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="nav"><a class="nav-a width" href="">导航1</a><a class="nav-a width" href="">导航2</a><a class="nav-a width" href="">导航3</a></div>
+</body>
+</html>

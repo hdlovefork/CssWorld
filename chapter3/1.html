@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除图片浮动</title>
+    <style>
+        .box {
+            padding: 10px;
+            background-color: #cd0000;
+        }
+        .box > img {
+            float: left;
+            margin-left: 10px;
+        }
+        .box img:first-child{
+            margin-left: 0;
+        }
+        .clear:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="box clear">
+    <img src="https://demo.cssworld.cn/images/common/l/1.jpg" alt="">
+    <img src="https://demo.cssworld.cn/images/common/l/1.jpg" alt="">
+</div>
+</body>
+</html>

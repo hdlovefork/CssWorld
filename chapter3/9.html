@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首选最小宽度实现凹凸效果</title>
+    <style>
+        .ao,
+        .tu{
+            display: inline-block;
+            width: 0;
+            margin: 35px;
+        }
+        .tu{
+            direction: rtl;
+        }
+        .ao:before,
+        .tu:before{
+            outline: 2px solid #cd0000;
+            color: #fff;
+        }
+        .tu:before{
+            content: '你love你';
+        }
+        .ao:before{
+            content: 'love你love';
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="ao"></span>
+    <span class="tu"></span>
+</div>
+</body>
+</html>
