@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位的填充效果</title>
+    <style>
+        .box {
+            position: relative;
+            display: inline-block;
+        }
+        .prev,.next {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            opacity: 50%;
+        }
+        .prev{
+            left: 0;
+            background-color: #cd0000;
+        }
+        .next{
+            right: 0;
+            background-color: #34538b;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="prev"></div>
+    <div class="next"></div>
+    <img src="https://demo.cssworld.cn/images/common/l/1.jpg" alt="">
+</div>
+</body>
+</html>
