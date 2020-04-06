@@ -12,3 +12,5 @@
 * [100%宽度不会死循环](https://hdlovefork.github.io/CssWorld/chapter3/11.html)
 * [position定位高度100%相对于谁？](https://hdlovefork.github.io/CssWorld/chapter3/12.html)
 * [绝对定位的填充效果](https://hdlovefork.github.io/CssWorld/chapter3/13.html)
+* [min-*,max-*的权重巨大无比](https://hdlovefork.github.io/CssWorld/chapter3/14.html)
+* [利用max-height产生纯css动画效果](https://hdlovefork.github.io/CssWorld/chapter3/15.html)
