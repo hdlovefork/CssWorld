@@ -17,3 +17,4 @@
 
 ### 第4章盒尺寸四大家族
 * [src缺省时img元素的alt信息展示](https://hdlovefork.github.io/CssWorld/chapter4/1.html)
+* [图片的content属性也可替代src属性](https://hdlovefork.github.io/CssWorld/chapter4/2.html)

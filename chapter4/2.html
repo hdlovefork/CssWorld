@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片的content属性也可替代src属性</title>
+    <style>
+        img:not([src]) {
+            content: url("https://demo.cssworld.cn/images/common/l/1.jpg");
+        }
+    </style>
+</head>
+<body>
+<img src="https://demo.cssworld.cn/images/common/l/1.jpg" alt="">
+<img alt="">
+</body>
+</html>
